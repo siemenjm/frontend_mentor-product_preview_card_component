@@ -21,6 +21,7 @@
 }
 
 body {
+    color: var(--neutral-very-dark-blue);
     font-family: Montserrat, sans-serif;
     height: 100vh;
     background-color: var(--primary-cream);
@@ -90,6 +91,7 @@ p {
 
 .prices p:last-child {
     font-size: 12px;
+    text-decoration: line-through;
 }
 
 button {
@@ -104,6 +106,15 @@ button {
     padding-top: 15px;
     padding-bottom: 15px;
     border-radius: var(--border-radius);
+}
+
+button:hover, button:focus {
+    background-color: var(--neutral-dark-grayish-blue);
+    box-shadow: 0 5px 10px var(--neutral-very-dark-blue);
+}
+
+button:focus-visible {
+    outline: none;
 }
 
 button img {
