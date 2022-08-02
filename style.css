@@ -87,3 +87,25 @@ p {
     font-size: 35px;
     margin-right: 10%;
 }
+
+.prices p:last-child {
+    font-size: 12px;
+}
+
+button {
+    background-color: var(--primary-dark-cyan);
+    border: none;
+    color: var(--neutral-white);
+    font-family: Montserrat, sans-serif;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: var(--border-radius);
+}
+
+button img {
+    margin-right: 10px;
+}
