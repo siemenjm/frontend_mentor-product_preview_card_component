@@ -15,9 +15,34 @@ body {
     font-family: Montserrat, sans-serif;
     margin: 0;
     padding: 0;
+    height: 100vh;
     background-color: var(--primary-cream);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 body p {
     font-size: 14px;
+}
+
+main {
+    max-width: calc(1440px * 0.4);
+    display: flex;
+}
+
+.img-container {
+    background-image: url(./images/image-product-desktop.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 50%;
+}
+
+.copy-container {
+    background-color: var(--neutral-white);
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding: 25px;
 }
