@@ -131,6 +131,7 @@ button img {
     }
 
     .img-container {
+        background-image: url(./images/image-product-mobile.jpg);
         width: 100%;
         height: 40vh;
         border-radius: var(--border-radius) var(--border-radius)0 0;
